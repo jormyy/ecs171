@@ -33,3 +33,5 @@ Make sure you have Anaconda installed.
 ## Deactivating the Conda Environment
 
 Once you're done working in the environment, you can deactivate it with:
+
+   ```conda deactivate```
