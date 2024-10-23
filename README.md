@@ -6,21 +6,27 @@ This repository contains the necessary materials for the ecs171 project. Below a
 
 Make sure you have Anaconda installed.
 
-## Setting Up the Conda Environment
+## Setting Up the Repo and Data
 
 1. Clone the repository:
 
    ```git clone https://github.com/your-username/ecs171.git```
 
-2. Create a new Conda environment named `ecs171`:
+2. Download the dataset from https://drive.google.com/drive/folders/1RTILMf8xOB4rua_RgdXMv5xBvs40wfax?usp=drive_link
+
+3. Add the "raw" folder dataset to the home directory of the repo. Make sure to keep the name of the folder as "raw".
+
+## Setting Up the Conda Environment
+
+1. Create a new Conda environment named `ecs171`:
 
    ```conda create --name ecs171 python=3.9```
 
-3. Activate the environment:
+2. Activate the environment:
 
    ```conda activate ecs171```
 
-4. Install the required packages from the `requirements.txt` file:
+3. Install the required packages from the `requirements.txt` file:
 
    ```pip install -r requirements.txt```
 
