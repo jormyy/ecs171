@@ -1,6 +1,24 @@
-torch
-torchvision
+# eda
 numpy
 matplotlib
 opencv-python
 scikit-learn
+pandas
+seaborn
+
+# training
+torch
+torchvision
+numpy
+pillow
+tqdm
+scikit-learn
+psutil
+GPUtil
+
+# deploy
+flask
+flask-cors
+torch
+numpy
+pillow

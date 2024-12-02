@@ -1,0 +1,209 @@
+Using device: cuda
+GPU Name: NVIDIA GeForce RTX 3060 Laptop GPU
+GPU Memory: 6.00 GB
+
+
+Hyperparameters:
+Input size: 2
+Hidden size: 128
+Number of layers: 2
+Number of classes: 10
+Batch size: 64
+Learning rate: 0.001
+Number of epochs: 20
+Samples per class: None
+
+Initializing dataset...
+Loading data from: processed_data/inliers
+Loading dataset...
+Loading classes: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:50<00:00, 23.07s/it]
+
+Dataset loaded with 1388575 total samples
+
+Samples per class:
+bird: 132401
+car: 179561
+cat: 121919
+clock: 116659
+dog: 150338
+face: 158703
+fish: 129686
+house: 130029
+sun: 129503
+tree: 139776
+
+/mnt/c/Users/winsy/OneDrive/Documents/work_and_school/school/ecs/ecs171/repo/ecs171/training_scripts/train_LSTM.py:82: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  self.data = torch.FloatTensor(self.data)
+
+Splitting dataset into 80% train, 20% validation...
+
+Split completed in 7.48s
+Train size: 1110860, Validation size: 277715
+
+Initializing model...
+Model parameters: 200,970
+
+Starting training...
+Total batches per epoch: 17358
+Batch size: 64
+Total samples per epoch: 1110912
+
+Training Epoch 1/20: 100%|████████████████████████████████████████████████████| 17358/17358 [04:11<00:00, 69.06batch/s, batch=17358/17358, loss=1.7153, acc=38.26%]
+Validation Epoch 1/20: 100%|███████████████████████████████████████████████████████████████████████| 4340/4340 [00:46<00:00, 92.78batch/s, loss=1.4467, acc=49.52%]
+
+Epoch [1/20] - 298.14s
+Training:   Loss: 1.7153 | Accuracy: 38.26%
+Validation: Loss: 1.4467 | Accuracy: 49.52%
+New best model saved with validation accuracy: 49.52%
+
+Training Epoch 2/20: 100%|████████████████████████████████████████████████████| 17358/17358 [07:16<00:00, 39.76batch/s, batch=17358/17358, loss=0.8432, acc=70.68%]
+Validation Epoch 2/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:37<00:00, 116.79batch/s, loss=0.5181, acc=82.37%]
+
+Epoch [2/20] - 473.69s
+Training:   Loss: 0.8432 | Accuracy: 70.68%
+Validation: Loss: 0.5181 | Accuracy: 82.37%
+New best model saved with validation accuracy: 82.37%
+
+Training Epoch 3/20: 100%|████████████████████████████████████████████████████| 17358/17358 [04:13<00:00, 68.52batch/s, batch=17358/17358, loss=0.4171, acc=85.95%]
+Validation Epoch 3/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:26<00:00, 163.78batch/s, loss=0.3342, acc=88.79%]
+
+Epoch [3/20] - 279.82s
+Training:   Loss: 0.4171 | Accuracy: 85.95%
+Validation: Loss: 0.3342 | Accuracy: 88.79%
+New best model saved with validation accuracy: 88.79%
+
+Training Epoch 4/20: 100%|████████████████████████████████████████████████████| 17358/17358 [03:19<00:00, 87.11batch/s, batch=17358/17358, loss=0.2994, acc=90.00%]
+Validation Epoch 4/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:22<00:00, 194.34batch/s, loss=0.2732, acc=90.93%]
+
+Epoch [4/20] - 221.60s
+Training:   Loss: 0.2994 | Accuracy: 90.00%
+Validation: Loss: 0.2732 | Accuracy: 90.93%
+New best model saved with validation accuracy: 90.93%
+
+Training Epoch 5/20: 100%|████████████████████████████████████████████████████| 17358/17358 [03:08<00:00, 91.98batch/s, batch=17358/17358, loss=0.2599, acc=91.33%]
+Validation Epoch 5/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:20<00:00, 212.41batch/s, loss=0.2601, acc=91.31%]
+
+Epoch [5/20] - 209.15s
+Training:   Loss: 0.2599 | Accuracy: 91.33%
+Validation: Loss: 0.2601 | Accuracy: 91.31%
+New best model saved with validation accuracy: 91.31%
+
+Training Epoch 6/20: 100%|████████████████████████████████████████████████████| 17358/17358 [02:54<00:00, 99.39batch/s, batch=17358/17358, loss=0.2353, acc=92.11%]
+Validation Epoch 6/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:20<00:00, 215.78batch/s, loss=0.2284, acc=92.41%]
+
+Epoch [6/20] - 194.75s
+Training:   Loss: 0.2353 | Accuracy: 92.11%
+Validation: Loss: 0.2284 | Accuracy: 92.41%
+New best model saved with validation accuracy: 92.41%
+
+Training Epoch 7/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:53<00:00, 100.18batch/s, batch=17358/17358, loss=0.2126, acc=92.90%]
+Validation Epoch 7/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:20<00:00, 212.66batch/s, loss=0.2077, acc=93.09%]
+
+Epoch [7/20] - 193.68s
+Training:   Loss: 0.2126 | Accuracy: 92.90%
+Validation: Loss: 0.2077 | Accuracy: 93.09%
+New best model saved with validation accuracy: 93.09%
+
+Training Epoch 8/20: 100%|████████████████████████████████████████████████████| 17358/17358 [02:54<00:00, 99.36batch/s, batch=17358/17358, loss=0.1994, acc=93.35%]
+Validation Epoch 8/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:20<00:00, 214.68batch/s, loss=0.2067, acc=93.15%]
+
+Epoch [8/20] - 194.92s
+Training:   Loss: 0.1994 | Accuracy: 93.35%
+Validation: Loss: 0.2067 | Accuracy: 93.15%
+New best model saved with validation accuracy: 93.15%
+
+Training Epoch 9/20: 100%|████████████████████████████████████████████████████| 17358/17358 [03:43<00:00, 77.71batch/s, batch=17358/17358, loss=0.1896, acc=93.65%]
+Validation Epoch 9/20: 100%|██████████████████████████████████████████████████████████████████████| 4340/4340 [00:42<00:00, 101.97batch/s, loss=0.1925, acc=93.63%]
+
+Epoch [9/20] - 265.93s
+Training:   Loss: 0.1896 | Accuracy: 93.65%
+Validation: Loss: 0.1925 | Accuracy: 93.63%
+New best model saved with validation accuracy: 93.63%
+
+Training Epoch 10/20: 100%|███████████████████████████████████████████████████| 17358/17358 [05:31<00:00, 52.37batch/s, batch=17358/17358, loss=0.1804, acc=93.96%]
+Validation Epoch 10/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:23<00:00, 186.69batch/s, loss=0.1860, acc=93.80%]
+
+Epoch [10/20] - 354.69s
+Training:   Loss: 0.1804 | Accuracy: 93.96%
+Validation: Loss: 0.1860 | Accuracy: 93.80%
+New best model saved with validation accuracy: 93.80%
+
+Training Epoch 11/20: 100%|███████████████████████████████████████████████████| 17358/17358 [03:03<00:00, 94.83batch/s, batch=17358/17358, loss=0.1734, acc=94.19%]
+Validation Epoch 11/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 197.78batch/s, loss=0.1844, acc=93.90%]
+
+Epoch [11/20] - 204.99s
+Training:   Loss: 0.1734 | Accuracy: 94.19%
+Validation: Loss: 0.1844 | Accuracy: 93.90%
+New best model saved with validation accuracy: 93.90%
+
+Training Epoch 12/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:59<00:00, 96.61batch/s, batch=17358/17358, loss=0.1674, acc=94.39%]
+Validation Epoch 12/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 201.61batch/s, loss=0.1785, acc=94.09%]
+
+Epoch [12/20] - 201.21s
+Training:   Loss: 0.1674 | Accuracy: 94.39%
+Validation: Loss: 0.1785 | Accuracy: 94.09%
+New best model saved with validation accuracy: 94.09%
+
+Training Epoch 13/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:58<00:00, 97.45batch/s, batch=17358/17358, loss=0.1571, acc=94.72%]
+Validation Epoch 13/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 201.63batch/s, loss=0.1712, acc=94.30%]
+
+Epoch [13/20] - 199.65s
+Training:   Loss: 0.1571 | Accuracy: 94.72%
+Validation: Loss: 0.1712 | Accuracy: 94.30%
+New best model saved with validation accuracy: 94.30%
+
+Training Epoch 14/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:57<00:00, 97.70batch/s, batch=17358/17358, loss=0.1593, acc=94.62%]
+Validation Epoch 14/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 198.82batch/s, loss=0.1724, acc=94.28%]
+
+Epoch [14/20] - 199.50s
+Training:   Loss: 0.1593 | Accuracy: 94.62%
+Validation: Loss: 0.1724 | Accuracy: 94.28%
+
+Training Epoch 15/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:58<00:00, 97.23batch/s, batch=17358/17358, loss=0.1582, acc=94.67%]
+Validation Epoch 15/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:22<00:00, 195.42batch/s, loss=0.1714, acc=94.34%]
+
+Epoch [15/20] - 200.74s
+Training:   Loss: 0.1582 | Accuracy: 94.67%
+Validation: Loss: 0.1714 | Accuracy: 94.34%
+New best model saved with validation accuracy: 94.34%
+
+Training Epoch 16/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:57<00:00, 97.88batch/s, batch=17358/17358, loss=0.1553, acc=94.77%]
+Validation Epoch 16/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 204.44batch/s, loss=0.1774, acc=94.09%]
+
+Epoch [16/20] - 198.58s
+Training:   Loss: 0.1553 | Accuracy: 94.77%
+Validation: Loss: 0.1774 | Accuracy: 94.09%
+
+Training Epoch 17/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:56<00:00, 98.27batch/s, batch=17358/17358, loss=0.1511, acc=94.90%]
+Validation Epoch 17/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 199.60batch/s, loss=0.1702, acc=94.38%]
+
+Epoch [17/20] - 198.38s
+Training:   Loss: 0.1511 | Accuracy: 94.90%
+Validation: Loss: 0.1702 | Accuracy: 94.38%
+New best model saved with validation accuracy: 94.38%
+
+Training Epoch 18/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:57<00:00, 97.83batch/s, batch=17358/17358, loss=0.1483, acc=94.99%]
+Validation Epoch 18/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 203.83batch/s, loss=0.1664, acc=94.45%]
+
+Epoch [18/20] - 198.73s
+Training:   Loss: 0.1483 | Accuracy: 94.99%
+Validation: Loss: 0.1664 | Accuracy: 94.45%
+New best model saved with validation accuracy: 94.45%
+
+Training Epoch 19/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:56<00:00, 98.21batch/s, batch=17358/17358, loss=0.1468, acc=95.05%]
+Validation Epoch 19/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 203.76batch/s, loss=0.1841, acc=93.88%]
+
+Epoch [19/20] - 198.04s
+Training:   Loss: 0.1468 | Accuracy: 95.05%
+Validation: Loss: 0.1841 | Accuracy: 93.88%
+
+Training Epoch 20/20: 100%|███████████████████████████████████████████████████| 17358/17358 [02:56<00:00, 98.43batch/s, batch=17358/17358, loss=0.1536, acc=94.84%]
+Validation Epoch 20/20: 100%|█████████████████████████████████████████████████████████████████████| 4340/4340 [00:21<00:00, 199.13batch/s, loss=0.1710, acc=94.36%]
+
+Epoch [20/20] - 198.14s
+Training:   Loss: 0.1536 | Accuracy: 94.84%
+Validation: Loss: 0.1710 | Accuracy: 94.36%
+
+
+Training completed in 1h 18m 5s
+Best validation accuracy: 94.45%

@@ -1,0 +1,62 @@
+{
+    "bird": {
+        "mean_strokes": 6.85192255862007,
+        "mean_time": 10025.062123798401,
+        "mean_points": 205.93061420058095,
+        "recognition_rate": 83.55867996286646
+    },
+    "car": {
+        "mean_strokes": 5.045348099188024,
+        "mean_time": 9629.570265478978,
+        "mean_points": 258.8443074128384,
+        "recognition_rate": 87.97629730143792
+    },
+    "cat": {
+        "mean_strokes": 9.877786074901381,
+        "mean_time": 10756.975933832244,
+        "mean_points": 220.11385367120664,
+        "recognition_rate": 83.62770084901219
+    },
+    "clock": {
+        "mean_strokes": 4.820003982212783,
+        "mean_time": 5240.55043306564,
+        "mean_points": 136.58571713015198,
+        "recognition_rate": 98.42951483374262
+    },
+    "dog": {
+        "mean_strokes": 7.1771239295736695,
+        "mean_time": 11085.777390755722,
+        "mean_points": 248.73529663049837,
+        "recognition_rate": 94.1679427441032
+    },
+    "face": {
+        "mean_strokes": 6.580214763772222,
+        "mean_time": 8218.581056004356,
+        "mean_points": 196.37683866737595,
+        "recognition_rate": 91.81646109880866
+    },
+    "fish": {
+        "mean_strokes": 3.38841595229221,
+        "mean_time": 5882.947387253075,
+        "mean_points": 150.1741632500932,
+        "recognition_rate": 94.23779351472233
+    },
+    "house": {
+        "mean_strokes": 3.722300989514104,
+        "mean_time": 5737.9842194653675,
+        "mean_points": 173.46079604194358,
+        "recognition_rate": 97.75734751144587
+    },
+    "sun": {
+        "mean_strokes": 8.103280734932465,
+        "mean_time": 6075.817672165704,
+        "mean_points": 171.04061862297337,
+        "recognition_rate": 96.89791524954964
+    },
+    "tree": {
+        "mean_strokes": 3.862231466062285,
+        "mean_time": 6562.483834412421,
+        "mean_points": 214.77180920529847,
+        "recognition_rate": 95.71105782851141
+    }
+}

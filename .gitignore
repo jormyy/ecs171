@@ -1,6 +1,9 @@
 raw/
 myenv/
-training_plot.png
-best_model.pth
-best_model_cat.pth
-best_model_house.pth
+cnn_test.py
+mlp_test.py
+training/__pycache__/
+tuning/__pycache__/
+processed_data/images/
+processed_data/inliers/
+processed_data/outliers/

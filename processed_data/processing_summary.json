@@ -1,0 +1,52 @@
+[
+  {
+    "category": "bird",
+    "inliers": 132401,
+    "outliers": 1171
+  },
+  {
+    "category": "car",
+    "inliers": 179561,
+    "outliers": 3203
+  },
+  {
+    "category": "cat",
+    "inliers": 121919,
+    "outliers": 1283
+  },
+  {
+    "category": "clock",
+    "inliers": 116659,
+    "outliers": 3877
+  },
+  {
+    "category": "dog",
+    "inliers": 150338,
+    "outliers": 1821
+  },
+  {
+    "category": "face",
+    "inliers": 158703,
+    "outliers": 2963
+  },
+  {
+    "category": "fish",
+    "inliers": 129686,
+    "outliers": 4464
+  },
+  {
+    "category": "house",
+    "inliers": 130029,
+    "outliers": 5391
+  },
+  {
+    "category": "sun",
+    "inliers": 129503,
+    "outliers": 4278
+  },
+  {
+    "category": "tree",
+    "inliers": 139776,
+    "outliers": 4945
+  }
+]
