@@ -47,7 +47,7 @@ ecs171/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecs171.git
+   git clone https://github.com/jormyy/ecs171.git
    cd ecs171
    ```
 
