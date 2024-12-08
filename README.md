@@ -144,6 +144,8 @@ Response:
 
 ## Data Processing
 
+If you attempt to perform the data processing, you need to create the directory ```processed_data```
+
 1. Run outlier detection:
    ```bash
    python processing_scripts/outlier.py
